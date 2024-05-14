@@ -118,7 +118,6 @@ export default function BundledEditor(props: BundledEditorProps): ReactElement {
                 height: props.editorHeight,
                 width: props.editorWidth,
                 contextmenu: props.contextmenutype === "richtext" ? "cut copy paste pastetext | link selectall" : false,
-                content_css: "default",
                 convert_unsafe_embeds: true,
                 sandbox_iframes: true
             }}
